@@ -28,5 +28,5 @@ console.log(`Nome da peça: ${nome}`);
 console.log(`Quantidade de peça: ${quantidade}`);
 console.log(`Preco Unitario: ${valor.toFixed(2)}`);
 console.log(`Total: ${total.toFixed(2)}`);
-console.log(`Desconto: ${verificarDesconto}`)
+console.log(`Desconto: ${Desconto}`)
 console.log("-".repeat(20));
