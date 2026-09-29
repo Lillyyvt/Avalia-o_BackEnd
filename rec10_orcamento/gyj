@@ -12,25 +12,3 @@
 // ☐ Solicitar nome do cliente, valor dos materiais e horas de serviço.
 // ☐ Exibir relatório com cliente, materiais, mão de obra, total e situação do desconto
 
-function calcularMaodeObra(horas){
-    return horas * 95;
-}
-
-function calcularTotal(valorMateriais, horas) {
- const maoDeObra = calcularMaodeObra(horas);
- return valorMateriais + maoDeObra;
-}
-
-function verificarDesconto(total) {
-    if (total >= 1000){
-        return "DESCONTO 10%";
-    } else {
-        return "SEM DESCONTO";
-    }
- }
-
- module.exports = {
-    calcularMaodeObra,
-    calcularTotal,
-    verificarDesconto
- };
